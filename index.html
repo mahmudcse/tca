@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TCA - Teaching Computer Application</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="app-header">
+    <h1>Teaching Computer Application (TCA)</h1>
+    <p>Minimal runnable simulator - step through a tiny program</p>
+  </header>
+
+  <main class="app-layout">
+    <section class="panel panel-editor" id="editor-panel">
+      <h2>Controls</h2>
+      <div id="code-editor-placeholder"></div>
+    </section>
+
+    <section class="panel panel-processor" id="processor-panel">
+      <h2>CPU State</h2>
+      <div id="processor-diagram-placeholder"></div>
+    </section>
+
+    <section class="panel panel-memory" id="memory-panel">
+      <h2>Memory State</h2>
+      <div id="memory-view-placeholder"></div>
+    </section>
+  </main>
+
+  <footer class="app-footer">
+    <p id="app-status">Status: Ready</p>
+  </footer>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>
